@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Task2\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Task2\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:15:27.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Task2\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Task2\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:10:01.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

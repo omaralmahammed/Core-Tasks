@@ -34,5 +34,8 @@ namespace Task1.Controllers
 
             return Ok(categories);
         }
+
+
+        
     }
 }

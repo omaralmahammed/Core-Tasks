@@ -39,5 +39,20 @@ namespace Task1.Controllers
 
             return Ok(slectedProducts);
         }
+
+
+        [HttpGet("categoryID")]
+
+        public IActionResult numperOfProduct(int categoryID, int price)
+        {
+
+            var data = _db.Products.Where(p => p.CategoryId == categoryID && p.Price >= price).Count();
+
+            var data2 = data.ToString();
+
+            return Ok(data);
+
+
+        }
     }
 }
