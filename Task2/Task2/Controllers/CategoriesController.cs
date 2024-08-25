@@ -77,6 +77,21 @@ namespace Task2.Controllers
 
 
 
+        ////////////////////////////////////////////////////////////////////////////////////
+
+
+        [HttpGet("productsByCategoryId/{id}")]
+
+        public IActionResult productByCategoryId(int id)
+        {
+            
+
+            var products = _db.Products.Where(model => model.CategoryId == id);
+
+           
+
+            return Ok(products);
+        }
         ///////////////////////////////////////////////////////////////////////////////////////////
 
 

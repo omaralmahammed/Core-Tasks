@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|c:\\users\\orange\\desktop\\core-tasks\\task2\\task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5A1D3E-A56E-429F-9210-0FC55906B1A4}|Task2\\Task2.csproj|solutionrelative:task2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Task2\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Task2\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAwBIAAAApAAAA",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Task2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Task2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T13:15:27.591Z",
+              "WhenOpened": "2024-08-25T09:08:42.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Task2\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Task2\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T08:17:11.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Program.cs",
+              "RelativeDocumentMoniker": "Task2\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Program.cs",
+              "RelativeToolTip": "Task2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:57:37.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Task2\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Task2\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:14:54.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task2\\Task2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Task2\\Controllers\\UsersController.cs",
