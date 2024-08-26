@@ -11,6 +11,7 @@ GO
 CREATE TABLE Categories (
     CategoryID int identity(1,1) primary key,
     CategoryName varchar(225),
+    CategoryDescription varchar(max),
     CategoryImage varchar(225)
 );
 
@@ -45,3 +46,4 @@ VALUES ('Laptop', 'High-performance laptop', 1000, 1, 'laptop.jpg'),
        ('Microwave', 'Compact microwave oven', 150, 4, 'microwave.jpg'),
        ('Toy Car', 'Remote-controlled toy car', 35, 5, 'toy_car.jpg'),
        ('Doll', 'Fashion doll with accessories', 30, 5, 'doll.jpg');
+

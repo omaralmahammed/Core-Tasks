@@ -1,7 +1,7 @@
 /** @format */
 
 var id = localStorage.getItem("categoryId");
-debugger;
+
 if (id == "null") {
   var url = `https://localhost:44327/api/Products/AllProducts`;
 } else {

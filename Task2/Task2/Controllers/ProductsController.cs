@@ -19,12 +19,32 @@ namespace Task2.Controllers
         public IActionResult GetAllProducts()
         {
 
-            var categories = _db.Products.ToList();
+            var categories = _db.Products.OrderByDescending(p => p.Price);
 
             return Ok(categories);
         }
 
-        [HttpGet("Product/{id:min(5)}")]
+        //[HttpGet("Product/{id:min(5)}")]
+
+        //public IActionResult GetgetAllProductById(int id)
+        //{
+
+        //    if (id < 0)
+        //    {
+        //        return BadRequest($"Invalid input: {id}");
+        //    }
+
+        //    var products = _db.Products.Where(model => model.ProductId == id);
+
+        //    if (products == null)
+        //    {
+        //        return NotFound($"Product '{id}' not found.");
+        //    }
+
+        //    return Ok(products);
+        //}
+
+        [HttpGet("ProductById/{id}")]
 
         public IActionResult GetgetAllProductById(int id)
         {

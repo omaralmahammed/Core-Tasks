@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|c:\\users\\orange\\desktop\\core-tasks\\task3\\day4\\day4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|solutionrelative:day4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|c:\\users\\orange\\desktop\\core-tasks\\task3\\day4\\day4\\dto\\categoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|solutionrelative:day4\\dto\\categoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|c:\\users\\orange\\desktop\\core-tasks\\task3\\day4\\day4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC8DDAE-43E4-4CF6-8789-409415E35375}|Day4\\Day4.csproj|solutionrelative:day4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Day4\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\Models\\Category.cs",
+              "RelativeToolTip": "Day4\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:28:56.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\DTO\\CategoryRequestDTO.cs",
+              "RelativeDocumentMoniker": "Day4\\DTO\\CategoryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\DTO\\CategoryRequestDTO.cs",
+              "RelativeToolTip": "Day4\\DTO\\CategoryRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:28:51.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Day4\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task3\\Day4\\Day4\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Day4\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:44:32.352Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
