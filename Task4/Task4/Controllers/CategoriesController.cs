@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using Task4.DTO;
 using Task4.Models;
 
@@ -134,6 +136,39 @@ namespace Task4.Controllers
                 return Ok($"Category '{id}' deleted successfully.");
             }
             return NotFound($"Category '{id}' not found.");
+        }
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////
+
+        [HttpGet("Mathematical operation")]
+        public IActionResult Mathematical(string operation)
+        {
+            string[] numb = operation.Split();
+
+            if (numb[1] == "+")
+            {
+                var opera = double.Parse(numb[0]) + double.Parse(numb[2]);
+                return Ok(opera);
+            }
+            else if (numb[1] == "-")
+            {
+                var opera = double.Parse(numb[0]) - double.Parse(numb[2]);
+                return Ok(opera);
+            }
+            else if (numb[1] == "*")
+            {
+                var opera = double.Parse(numb[0]) * double.Parse(numb[2]);
+                return Ok(opera);
+            }
+            else if (numb[1] == "/")
+            {
+                var opera = double.Parse(numb[0]) / double.Parse(numb[2]);
+                return Ok(opera);
+            }
+
+            return Ok();
+
         }
     }
 }
