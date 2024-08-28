@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|c:\\users\\orange\\desktop\\core-tasks\\task5\\backend\\task5\\controllers\\problemsolvingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|solutionrelative:task5\\controllers\\problemsolvingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|c:\\users\\orange\\desktop\\core-tasks\\task5\\backend\\task5\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|solutionrelative:task5\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Task5\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Task5\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:06:27.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProblemSolvingController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\ProblemSolvingController.cs",
+              "RelativeDocumentMoniker": "Task5\\Controllers\\ProblemSolvingController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\ProblemSolvingController.cs",
+              "RelativeToolTip": "Task5\\Controllers\\ProblemSolvingController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA/wCIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:06:22.519Z",
+              "EditorCaption": ""
             }
           ]
         }

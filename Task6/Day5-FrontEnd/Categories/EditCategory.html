@@ -1,0 +1,90 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>Edit Category</title>
+  </head>
+  <body>
+    <h1 class="text-center m-4">Edit Category</h1>
+    <hr />
+    <br />
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <!-- Card Section -->
+        <div
+          id="cardContainer"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-4"
+        ></div>
+
+        <!-- Divider -->
+        <div class="col-md-1 d-flex align-items-center">
+          <div
+            class="vr"
+            style="height: 100%; width: 1px; background-color: #0b0b0b"
+          ></div>
+        </div>
+
+        <!-- Form Section -->
+        <div
+          class="col-md-4 d-flex align-items-center justify-content-center mb-4"
+        >
+          <form
+            id="updateCategoryForm"
+            enctype="multipart/form-data"
+            class="p-4 shadow rounded bg-light w-100"
+          >
+            <div class="mb-3">
+              <label for="CategoryName" class="form-label fw-bold"
+                >Category Name:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                name="CategoryName"
+                placeholder="Enter category name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="CategoryDescription" class="form-label fw-bold"
+                >Description:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                name="CategoryDescription"
+                placeholder="Enter category description"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="CategoryImage" class="form-label fw-bold"
+                >Category Image:</label
+              >
+              <input type="file" class="form-control" name="CategoryImage" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="EditCategory.js"></script>
+</html>

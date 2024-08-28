@@ -47,3 +47,21 @@ VALUES ('Laptop', 'High-performance laptop', 1000, 1, 'laptop.jpg'),
        ('Toy Car', 'Remote-controlled toy car', 35, 5, 'toy_car.jpg'),
        ('Doll', 'Fashion doll with accessories', 30, 5, 'doll.jpg');
 
+
+
+CREATE TABLE Carts (
+    CartID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT UNIQUE,
+    CONSTRAINT FK_UserCart FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE TABLE CartItems (
+    CartItemID INT IDENTITY(1,1) PRIMARY KEY,
+    CartID INT,
+    ProductID INT,
+    Quantity INT NOT NULL,
+    CONSTRAINT FK_Cart FOREIGN KEY (CartID) REFERENCES Carts(CartID),
+    CONSTRAINT FK_Product FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
+    UNIQUE (CartID, ProductID)
+);
+
