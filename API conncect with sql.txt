@@ -11,7 +11,7 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 
 then use scafolding command 
 
-Scaffold-DbContext "Server=DESKTOP-2LAAQSG;Database=EcommerceCore;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context MyDbContext
+Scaffold-DbContext "Server=DESKTOP-2LAAQSG;Database=Ecommerce;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context MyDbContext
 
 
 add this to program.cs 
@@ -30,6 +30,21 @@ add this to appsetting
 same vidos in 
 https://www.youtube.com/watch?v=BsDljcDkCCU&list=PL3ewn8T-zRWgO-GAdXjVRh-6thRog6ddg&index=39
 
+
+builder.Services.AddCors(options =>
+
+options.AddPolicy("Development", builder =>
+{
+    builder.AllowAnyOrigin();
+    builder.AllowAnyMethod();
+    builder.AllowAnyHeader();
+})
+
+
+);
+
+
+app.UseCors("Development");
 
 
 

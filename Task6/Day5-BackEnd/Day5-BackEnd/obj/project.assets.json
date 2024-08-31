@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Core\\Day5\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task6\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
       "projectName": "Day5-BackEnd",
-      "projectPath": "C:\\Users\\Orange\\Desktop\\Core\\Day5\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
+      "projectPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task6\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
       "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orange\\Desktop\\Core\\Day5\\Day5-BackEnd\\Day5-BackEnd\\obj\\",
+      "outputPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task6\\Day5-BackEnd\\Day5-BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

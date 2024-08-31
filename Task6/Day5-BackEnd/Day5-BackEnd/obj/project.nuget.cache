@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B4e2x785xlk=",
+  "dgSpecHash": "Rr5IFwdTGYo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange\\Desktop\\Core\\Day5\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
+  "projectFilePath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task6\\Day5-BackEnd\\Day5-BackEnd\\Day5-BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orange\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Orange\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

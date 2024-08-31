@@ -40,7 +40,7 @@ async function productDetails() {
                         </div>
                     </form>
             </div>
-            </div>
+          </div>
         </div>
     </div>    
   
