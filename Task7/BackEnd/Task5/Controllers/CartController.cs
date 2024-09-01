@@ -38,12 +38,12 @@ namespace Task5.Controllers
             return Ok(allItemsInCart);
         }
 
-        [HttpPut("updateQuantity/{id}")]
-        public IActionResult updateQuantity(int id, QuantityDTO item )
+        [HttpPut("updateQuantity/{id:int}")]
+        public IActionResult updateQuantity(int id, [FromBody] int quantityValue)
         {
             var findItem = _db.CartItems.Find(id);
 
-            findItem.Quantity = item.Quantity;
+            findItem.Quantity = quantityValue;
 
             _db.CartItems.Update(findItem);
             _db.SaveChanges();

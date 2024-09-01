@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|solutionrelative:task5\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|c:\\users\\orange\\desktop\\core-tasks\\task5\\backend\\task5\\dto\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|solutionrelative:task5\\dto\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|c:\\users\\orange\\desktop\\core-tasks\\task5\\backend\\task5\\dto\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7933B87A-E49A-40C0-A0B6-4B1140793813}|Task5\\Task5.csproj|solutionrelative:task5\\dto\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\DTO\\ProductRequestDTO.cs",
               "RelativeDocumentMoniker": "Task5\\DTO\\ProductRequestDTO.cs",
@@ -46,12 +42,11 @@
               "RelativeToolTip": "Task5\\DTO\\ProductRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:30:15.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:30:15.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Task5\\Controllers\\CategoriesController.cs",
@@ -59,25 +54,11 @@
               "RelativeToolTip": "Task5\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T12:27:07.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T12:27:07.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuantityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\DTO\\QuantityDTO.cs",
-              "RelativeDocumentMoniker": "Task5\\DTO\\QuantityDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\DTO\\QuantityDTO.cs",
-              "RelativeToolTip": "Task5\\DTO\\QuantityDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T12:24:51.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CartResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\DTO\\CartResponseDTO.cs",
               "RelativeDocumentMoniker": "Task5\\DTO\\CartResponseDTO.cs",
@@ -85,8 +66,7 @@
               "RelativeToolTip": "Task5\\DTO\\CartResponseDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T11:47:57.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T11:47:57.958Z"
             },
             {
               "$type": "Document",
@@ -96,7 +76,7 @@
               "RelativeDocumentMoniker": "Task5\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Task5\\BackEnd\\Task5\\Controllers\\CartController.cs",
               "RelativeToolTip": "Task5\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAAMAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T11:44:57.95Z",
               "EditorCaption": ""

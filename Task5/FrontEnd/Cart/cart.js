@@ -15,7 +15,7 @@ async function getAllItems() {
       <tr>
           <td>${item.cartId}</td>
           <td>${item.product.productName}</td>
-          <td><input id="quantity-${item.cartItemId}" type="number" placeholder="${item.quantity}" class="form-input"></td>
+          <td><input id="quantity-${item.cartItemId}" type="number" value="${item.quantity}" class="form-input"></td>
           <td><button type="button" onclick="updateQuantity(${item.cartItemId})">Edit</button></td>
           <td><button type="button" onclick="deleteItem(${item.cartItemId})">Delete</button></td>
       </tr>
@@ -31,18 +31,14 @@ async function updateQuantity(CartItemID) {
   let url = `https://localhost:44333/api/Cart/updateQuantity/${CartItemID}`;
 
   var quantityInput = document.getElementById(`quantity-${CartItemID}`);
-  var quantityValue = quantityInput.value;
-
-  var data = {
-    quantity: quantityValue,
-  };
+  var quantity = quantityInput.value;
 
   let response = await fetch(url, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(quantity),
   });
 
   location.reload();
