@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|c:\\users\\orange\\desktop\\ecommerce\\ecommerce-backend\\ecommerce-backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|solutionrelative:ecommerce-backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|c:\\users\\orange\\desktop\\ecommerce\\ecommerce-backend\\ecommerce-backend\\dto\\changequantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|solutionrelative:ecommerce-backend\\dto\\changequantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|c:\\users\\orange\\desktop\\ecommerce\\ecommerce-backend\\ecommerce-backend\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF136A8-160B-4318-A99F-F5221DC830B6}|Ecommerce-BackEnd\\Ecommerce-BackEnd.csproj|solutionrelative:ecommerce-backend\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\Models\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "Ecommerce-BackEnd\\Models\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\Models\\ShoppingCartItem.cs",
+              "RelativeToolTip": "Ecommerce-BackEnd\\Models\\ShoppingCartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:25:33.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "changeQuantityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\DTO\\changeQuantityDTO.cs",
+              "RelativeDocumentMoniker": "Ecommerce-BackEnd\\DTO\\changeQuantityDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\DTO\\changeQuantityDTO.cs",
+              "RelativeToolTip": "Ecommerce-BackEnd\\DTO\\changeQuantityDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:25:27.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Ecommerce-BackEnd\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Ecommerce\\Ecommerce-BackEnd\\Ecommerce-BackEnd\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Ecommerce-BackEnd\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAMwDoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:58:58.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
