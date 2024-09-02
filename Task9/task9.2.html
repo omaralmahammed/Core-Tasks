@@ -1,0 +1,59 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input id="inputEmail" type="email" onchange="checkEmail()" />
+    </div>
+
+    <br /><br />
+    <div>
+      <label>First Name:</label>
+      <p id="firstName" style="color: red"></p>
+    </div>
+    <div>
+      <label>Second Name:</label>
+      <p id="secondName" style="color: red"></p>
+    </div>
+    <div>
+      <label>Email:</label>
+      <p id="email" style="color: red"></p>
+    </div>
+    <div>
+      <label>phone Number:</label>
+      <p id="phoneNumber" style="color: red"></p>
+    </div>
+  </body>
+</html>
+
+<script>
+  async function checkEmail() {
+    var inputEmail = document.getElementById("inputEmail").value;
+
+    var FirstName = document.getElementById("firstName");
+    var SecondName = document.getElementById("secondName");
+    var EmailField = document.getElementById("email");
+    var PhoneNumber = document.getElementById("phoneNumber");
+
+    debugger;
+    fetch(`https://localhost:44398/api/Users/CheckEmail/${inputEmail}`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        FirstName.innerHTML = data.firstName;
+        SecondName.innerHTML = data.secondName;
+        EmailField.innerHTML = data.email;
+        PhoneNumber.innerHTML = data.phoneNumber;
+      });
+  }
+</script>
